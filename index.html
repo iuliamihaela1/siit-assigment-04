@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Click counter</h2>
+        <div class="border shadow padding-box padding-vertical20 center">
+            <h2 >Clicks:</h3>
+            <h1 id="counter">0</h2>
+            <hr class="w-100">
+            <div>
+                <button onclick="modify(-5)">-5</button>
+                <button onclick="modify(-1)">-1</button>
+                <button onclick="modify(0)">reset</button>
+                <button onclick="modify(5)">5</button>
+                <button onclick="modify(1)">1</button>
+            </div> 
+            <p>Last action <span id="action"></span></p>
+        </div>
+    </div>
+</body>
+</html>
